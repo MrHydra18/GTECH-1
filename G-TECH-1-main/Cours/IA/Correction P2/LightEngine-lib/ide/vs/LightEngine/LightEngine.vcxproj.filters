@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+    <ItemGroup>
+        <Filter Include="header">
+            <UniqueIdentifier>{F6FADF47-FFF3-443E-84E6-F6F04F1389A7}</UniqueIdentifier>
+            <Extensions>h;hpp</Extensions>
+        </Filter>
+        <Filter Include="resource">
+            <UniqueIdentifier>{C3CC3228-F1A3-4F51-92FC-57AACD1194B3}</UniqueIdentifier>
+            <Extensions>hlsl;jpg;jpeg;png;wav;mp3;ico;dds;rc;obj</Extensions>
+        </Filter>
+        <Filter Include="source">
+            <UniqueIdentifier>{3E390C34-9B63-44B3-A7B7-539C8E6D1744}</UniqueIdentifier>
+            <Extensions>cpp;c</Extensions>
+        </Filter>
+    </ItemGroup>
+    <ItemGroup>
+        <ClCompile Include="..\..\..\src\LightEngine\Debug.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\LightEngine\Entity.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\LightEngine\GameManager.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\LightEngine\Scene.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\LightEngine\Utils.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClInclude Include="..\..\..\src\LightEngine\Debug.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\LightEngine\Entity.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\LightEngine\GameManager.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\LightEngine\Scene.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\LightEngine\Utils.h">
+            <Filter>header</Filter>
+        </ClInclude>
+    </ItemGroup>
+</Project>
